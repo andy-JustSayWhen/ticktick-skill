@@ -1,0 +1,23 @@
+# Secrets and local config
+.env
+*.env
+.env.*
+*.token
+*token*
+*.secret
+secrets/
+.local/
+.config/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python / cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs
+*.log
+logs/
